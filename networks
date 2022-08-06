@@ -1,0 +1,8 @@
+#TCP-Transfer control protocol
+#Sockets are used for networiking protocol
+
+import socket
+mysock=socket.socket(socket.AF_INET , socket.SOCK_STREAM)     # create socket
+mysoc.connect('data_pride.org",80)     #connect socket
+
+
