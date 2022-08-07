@@ -1,0 +1,9 @@
+# urlib is the library that does all the socket work for us create how the web page look like
+
+import urllib.request
+fhand = urllib.request.urlopen('http://data.pr4e.org/romeo.txt')
+for line in fhand:
+    print(line.decode().strip())
+    
+    
+gets the content of the file    
