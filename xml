@@ -1,0 +1,14 @@
+start tag
+endtag
+text content
+attribute
+self closing tag
+
+
+<person>
+<name> Susan </name>
+<phone type="intl"> 123456789 </phone>
+<emial hide="yes" />
+</person>
+
+XSD is the wc3 schema for specification of XML
