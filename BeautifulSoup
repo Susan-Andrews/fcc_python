@@ -21,4 +21,6 @@ tag = soup.h2
 print(tag)
 
 
+#output --> <h2> Heading 1 </h2>
+
 #references -GeeksforGeeks
