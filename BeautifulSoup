@@ -1,1 +1,24 @@
-BeautifulSoup object is provided by Beautiful Soup which is a web scraping framework for Python. Web scraping is the process of extracting data from the website using automated tools to make the process faster. The BeautifulSoup object represents the parsed document as a whole. For most purposes, you can treat it as a Tag object.
+#BeautifulSoup object is provided by Beautiful Soup which is a web scraping framework for Python.
+#Web scraping is the process of extracting data from the website using automated tools to make the process faster. 
+#The BeautifulSoup object represents the parsed document as a whole. For most purposes, you can treat it as a Tag object.
+
+
+# Import Beautiful Soup
+from bs4 import BeautifulSoup
+  
+# Initialize the object with a HTML page
+soup = BeautifulSoup('''
+    <html>
+        <h2> Heading 1 </h2>
+        <h1> Heading 2 </h1>
+    </html>
+    ''', "lxml")
+  
+# Get the whole h2 tag
+tag = soup.h2
+  
+# Print the tag
+print(tag)
+
+
+#references -GeeksforGeeks
