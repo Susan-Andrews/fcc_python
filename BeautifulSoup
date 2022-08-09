@@ -1,0 +1,1 @@
+BeautifulSoup object is provided by Beautiful Soup which is a web scraping framework for Python. Web scraping is the process of extracting data from the website using automated tools to make the process faster. The BeautifulSoup object represents the parsed document as a whole. For most purposes, you can treat it as a Tag object.
