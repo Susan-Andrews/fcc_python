@@ -1,0 +1,13 @@
+#objects
+
+class partyanimal():               # creating class
+    x=0                            #initializing variable
+
+    def party(self):               #defining function
+        self.x=self.x+1        
+        print("so far ",self.x)
+obj=partyanimal()                  #creating object for class
+
+obj.party()                        #using the object for calling the function
+obj.party()
+obj.party()
