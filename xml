@@ -1,14 +1,23 @@
+Introduction
+
+- XML stands for eXtensible Markup Language
+- XML is a markup language much like HTML
+- XML was designed to store and transport data
+- XML was designed to be self-descriptive
+- XML is a W3C Recommendation
+
+SYNTAX-Basic
+
 start tag
 endtag
 text content
 attribute
 self closing tag
 
+EXAMPLE
 
 <person>
 <name> Susan </name>
 <phone type="intl"> 123456789 </phone>
 <emial hide="yes" />
 </person>
-
-XSD is the wc3 schema for specification of XML
