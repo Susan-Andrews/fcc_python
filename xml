@@ -5,6 +5,8 @@ Introduction
 - XML was designed to store and transport data
 - XML was designed to be self-descriptive
 - XML is a W3C Recommendation
+- XML is just information wrapped in tags
+
 
 SYNTAX-Basic
 
@@ -21,3 +23,14 @@ EXAMPLE
 <phone type="intl"> 123456789 </phone>
 <emial hide="yes" />
 </person>
+
+Difference between xml and html
+
+XML was designed to carry data - with focus on what data is
+HTML was designed to display data - with focus on how data looks
+XML tags are not predefined like HTML tags are
+
+* The XML language has no predefined tags.
+* The tags in the example above (like <to> and <from>) are not defined in any XML standard. These tags are "invented" by the author of the XML document.
+* HTML works with predefined tags like <p>, <h1>, <table>, etc.
+With XML, the author must define both the tags and the document structure.
